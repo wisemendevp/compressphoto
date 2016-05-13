@@ -15,7 +15,7 @@
     </info>
     
     <js-module src="www/js/compressimage.js" name="compressimage">
-        <clobbers target="navigator.compressimage" />
+        <clobbers target="window.compressimage" />
     </js-module>
     
     <engines>
