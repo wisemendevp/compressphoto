@@ -1,6 +1,6 @@
 var compressimage = {
-compress: function(success, failure,data){
-    cordova.exec(success, failure, "compressimage", "compress", [data]);
+compress: function(success, failure){
+    cordova.exec(success, failure, "compressimage", "compress", []);
 }
 };
 module.exports = compressimage;
